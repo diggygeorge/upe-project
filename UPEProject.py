@@ -126,7 +126,7 @@ class Player():
         return game_over
     
     def reset(self, x, y):
-        img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/player.png')
+        img = pygame.image.load('player.png')
         self.image = pygame.transform.scale(img, (40, 60))
         self.rect = self.image.get_rect()
         self.rect.x = x
@@ -143,9 +143,9 @@ class World():
         self.tile_list = []
         
         #load images
-        dirt_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/dirt.jpg')
-        grass_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/grass.jpg')
-        wood_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/wood.png')
+        dirt_img = pygame.image.load('dirt.jpg')
+        grass_img = pygame.image.load('grass.jpg')
+        wood_img = pygame.image.load('wood.png')
 
 
         row_count = 0
@@ -192,7 +192,7 @@ class World():
 class Enemy(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.image.load('C:/Users/danny/OneDrive/Pictures/enemy.png')
+        self.image = pygame.image.load('enemy.png')
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
@@ -209,7 +209,7 @@ class Enemy(pygame.sprite.Sprite):
 class Exit(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
-        img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/bathtub.png')
+        img = pygame.image.load('bathtub.png')
         self.image = pygame.transform.scale(img, (tile_size, tile_size))
         self.rect = self.image.get_rect()
         self.rect.x = x
@@ -218,7 +218,7 @@ class Exit(pygame.sprite.Sprite):
 class Key(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
-        img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/soap.png')
+        img = pygame.image.load('soap.png')
         self.image = pygame.transform.scale(img, (tile_size, tile_size))
         self.rect = self.image.get_rect()
         self.rect.x = x
