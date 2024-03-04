@@ -22,14 +22,14 @@ main_menu = True
 keyCollected = False
 
 #load images
-sun_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/sun.png')
-sky_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/sky.jpg')
-restartbutton_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/restartbutton.png')
-startbutton_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/startbutton.png')
-hardbutton_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/hardbutton.png')
-exitbutton_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/exitbutton.png')
-title_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/gametitle.png')
-success_img = pygame.image.load('C:/Users/danny/OneDrive/Pictures/success.png')
+sun_img = pygame.image.load('sun.png')
+sky_img = pygame.image.load('sky.jpg')
+restartbutton_img = pygame.image.load('restartbutton.png')
+startbutton_img = pygame.image.load('startbutton.png')
+hardbutton_img = pygame.image.load('hardbutton.png')
+exitbutton_img = pygame.image.load('exitbutton.png')
+title_img = pygame.image.load('gametitle.png')
+success_img = pygame.image.load('success.png')
 
 class Button():
     def __init__(self, x, y, image):
