@@ -5,3 +5,5 @@ The Computer Science student forgot to take a shower!  He needs to collect the s
 How to Download Game:
 
 Navigate to the main branch (My notation may be unclear, so I mean to say this: https://github.com/diggygeorge/upe-project).  Then click the green 'Code' Button.  Finally, click on the bottom code button and click 'Download ZIP.' After extracting the ZIP files, go to the file UPEProject.py and click on it.  Hopefully that should work!
+
+(In case the images do not load correctly, I hope the image suffices.)
